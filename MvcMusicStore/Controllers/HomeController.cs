@@ -10,6 +10,7 @@ namespace MvcMusicStore.Controllers
     {
         public ActionResult Index()
         {
+            //if you're in home controller, you'll look for Home View by default
             return View();
         }
 
