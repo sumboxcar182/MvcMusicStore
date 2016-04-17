@@ -11,8 +11,10 @@ namespace MvcMusicStore.Models
     {
         public int ReviewID { get; set; }
 
+        //isn't really needed, but makes life easier
         public int AlbumID { get; set; }
 
+        //enables lazy loading
         public virtual Album Album { get; set; }
 
         public string Contents { get; set; }
